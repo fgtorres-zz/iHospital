@@ -1,0 +1,398 @@
+ [
+        {
+            "address": "Rua Direta do Saboeiro, s/n - Cabula, Salvador - BA, 41180-780, Brazil",
+            "latLng": {
+                "lat": -12.9558417,
+                "lng": -38.4508572
+            },
+            "CNES": 3859,
+            "nome": " HOSPITAL GERAL ROBERTO SANTOS"
+        },
+        {
+            "address": "Ed. Memorial Itaigara Salas 1103/1104 - Rua Altino Serbeto de Barros, 241 - Itaigara, BA, 41810-570, Brazil",
+            "latLng": {
+                "lat": -12.9986748,
+                "lng": -38.4653711
+            },
+            "CNES": 3542998,
+            "nome": " ALCLIN ITAIGARA"
+        },
+        {
+            "address": "Estr. da Paciência, 2009 - Cajazeiras 8, Salvador - BA, 41338-700, Brazil",
+            "latLng": {
+                "lat": -12.899871,
+                "lng": -38.4110462
+            },
+            "CNES": 2389738,
+            "nome": " HOSPITAL PROHOPE"
+        },
+        {
+            "address": "Rua Augusto Viana, S/n - Canela, Salvador - BA, 40110-060, Brazil",
+            "latLng": {
+                "lat": -12.9932884,
+                "lng": -38.5201263
+            },
+            "CNES": 3816,
+            "nome": " HOSPITAL UNIVERSITARIO PROFESSOR EDGARD SANTOS"
+        },
+        {
+            "address": "Av. Dom João VI, 332 - Brotas, Salvador - BA, 40285-001, Brazil",
+            "latLng": {
+                "lat": -12.9906696,
+                "lng": -38.4859281
+            },
+            "CNES": 3786,
+            "nome": " HOSPITAL ARISTIDES MALTEZ"
+        },
+        {
+            "address": "Av. Adhemar de Barros, 422 - Ondina, Salvador - BA, 40170-110, Brazil",
+            "latLng": {
+                "lat": -13.0069139,
+                "lng": -38.509029
+            },
+            "CNES": 2466562,
+            "nome": " OFTALMODIAGNOSE HOSPITAL DE OLHOS"
+        },
+        {
+            "address": "190 - Rua Senador Theotônio Vilela, 1 - Pituba, Salvador - BA, 40279-090, Brazil",
+            "latLng": {
+                "lat": -12.9880199,
+                "lng": -38.4723029
+            },
+            "CNES": 6688,
+            "nome": " CDTO"
+        },
+        {
+            "address": "Rua Barão de Cotegipe, 1153 - Roma, Salvador - BA, 40411-900, Brazil",
+            "latLng": {
+                "lat": -12.9350374,
+                "lng": -38.5056188
+            },
+            "CNES": 3778,
+            "nome": "HOSPITAL DA MULHER"
+        },
+        {
+            "address": "R. Cel. Azevedo, S/N - Cajazeiras 2, Salvador - BA, 41330-010, Brazil",
+            "latLng": {
+                "lat": -12.8899354,
+                "lng": -38.4223801
+            },
+            "CNES": 3980,
+            "nome": " HOSPITAL ELADIO LASSERRE"
+        },
+        {
+            "address": "R. Teixeira Barros, 72 - Brotas, Salvador - BA, 40276-150, Brazil",
+            "latLng": {
+                "lat": -12.9852634,
+                "lng": -38.4768649
+            },
+            "CNES": 3794,
+            "nome": " INSTITUTO DE PERINATOLOGIA DA BAHIA"
+        },
+        {
+            "address": "Av. Afrânio Peixoto, s/nº - Coutos, Salvador - BA, 40720-690, Brazil",
+            "latLng": {
+                "lat": -12.8487428,
+                "lng": -38.4733526
+            },
+            "CNES": 4081,
+            "nome": " MATERNIDADE JOAO BATISTA CARIBE"
+        },
+        {
+            "address": "R. Marquês de Maricá, s/n - Pau Miúdo, Salvador - BA, 40320-350, Brazil",
+            "latLng": {
+                "lat": -12.9594748,
+                "lng": -38.484646
+            },
+            "CNES": 3956369,
+            "nome": " MATERNIDADE PROFESSOR JOSE MARIA DE MAGALHAES NETO"
+        },
+        {
+            "address": "R. Comendador José Alves Ferreira, 240 - Garcia, Salvador - BA, 40100-160, Brazil",
+            "latLng": {
+                "lat": -12.9901763,
+                "lng": -38.5165402
+            },
+            "CNES": 4031415,
+            "nome": " CEDAP CENTRO EST ESPECIALIZADO EM DIAG ASSIST E PESQUISA"
+        },
+        {
+            "address": "Praça Conselheiro Almeida Couto, 500 - Nazaré, Salvador - BA, 40050-410",
+            "latLng": {
+                "lat": -12.9884852,
+                "lng": -38.5210188
+            },
+            "CNES": 3832,
+            "nome": " HOSPITAL SANTA ISABEL"
+        },
+        {
+            "address": "R. Rio São Francisco, s/n - Monte Serrat, Salvador - BA, 40415-100, Brazil",
+            "latLng": {
+                "lat": -12.9260663,
+                "lng": -38.5129404
+            },
+            "CNES": 5428,
+            "nome": " HOSPITAL ESPECIALIZADO COUTO MAIA"
+        },
+        {
+            "address": "Praça Conselheiro Almeida Couto, s/n - Largo de Nazaré, Salvador - BA, 44150-050, Brazil",
+            "latLng": {
+                "lat": -12.9721094,
+                "lng": -38.5020308
+            },
+            "CNES": 2493845,
+            "nome": " HOSPITAL MANOEL VICTORINO"
+        },
+        {
+            "address": "R. do Limoeiro, 137 - Nazaré, Salvador - BA, 40055-150, Brazil",
+            "latLng": {
+                "lat": -12.9720211,
+                "lng": -38.501501
+            },
+            "CNES": 4731,
+            "nome": " MATERNIDADE CLIMERIO DE OLIVEIRA"
+        },
+        {
+            "address": "Av. Anita Garibaldi, 1815 - Ondina, Salvador - BA, 40170-130, Brazil",
+            "latLng": {
+                "lat": -13.0037597,
+                "lng": -38.5022451
+            },
+            "CNES": 3575497,
+            "nome": " CLIVAN INSTITUTO DE OFTALMOLOGIA"
+        },
+        {
+            "address": "R. Pedro Lessa, 118 - Canela, Salvador - BA, 40110-050, Brazil",
+            "latLng": {
+                "lat": -12.994668,
+                "lng": -38.5229968
+            },
+            "CNES": 6157,
+            "nome": " HOSPITAL HUMBERTO CASTRO LIMA"
+        },
+        {
+            "address": "Rua Conde de Porto Alegre, 11 - Iapi, Salvador - BA, 40330-201, Brazil",
+            "latLng": {
+                "lat": -12.9578766,
+                "lng": -38.4880311
+            },
+            "CNES": 5436,
+            "nome": " HOSPITAL ESPECIALIZADO MARIO LEAL"
+        },
+        {
+            "address": "Av. Dom João VI, 1291 - Brotas, Salvador - BA, 40285-000, Brazil",
+            "latLng": {
+                "lat": -12.989831,
+                "lng": -38.4886097
+            },
+            "CNES": 4979,
+            "nome": " HOSPITAL EVANGELICO DA BAHIA HEB"
+        },
+        {
+            "address": "Ladeira Quintas dos Lázaros - Baixa de Quintas, Salvador - BA, 40300-415, Brazil",
+            "latLng": {
+                "lat": -12.9624733,
+                "lng": -38.4917199
+            },
+            "CNES": 4170,
+            "nome": " MATERNIDADE TSYLLA BALBINO"
+        },
+        {
+            "address": "RUA JAIME VIEIRA LIMA ,104 - PAU DA LIMA",
+            "latLng": {
+                "lat": -12.9184377,
+                "lng": -38.4430456
+            },
+            "CNES": 6564,
+            "nome": " UNIDADE MISTA DR JOSE CARNEIRO DE CAMPOS"
+        },
+        {
+            "address": "Estr. do Coqueiro Grande, s/n - Cajazeiras, Salvador - BA, 41340-855, Brazil",
+            "latLng": {
+                "lat": -12.9033021,
+                "lng": -38.4056475
+            },
+            "CNES": 3840,
+            "nome": " MATERNIDADE ALBERT SABIN"
+        },
+        {
+            "address": "Praça Conselheiro Almeida Couto, 110 - Nazaré, Salvador - BA, 40050-405",
+            "latLng": {
+                "lat": -12.9748153,
+                "lng": -38.5044254
+            },
+            "CNES": 4960,
+            "nome": " HOSPITAL SANTA LUZIA"
+        },
+        {
+            "address": "Rua Manoel Lino, s/n - Estrada Velha de Periperi, Salvador - BA, 40720-460, Brazil",
+            "latLng": {
+                "lat": -12.8648992,
+                "lng": -38.4567357
+            },
+            "CNES": 6595197,
+            "nome": " HOSPITAL DO SUBURBIO"
+        },
+        {
+            "address": "Praça Conselheiro Almeida Couto, 512 - Nazaré, Salvador - BA, 40050-410, Brazil",
+            "latLng": {
+                "lat": -12.9721251,
+                "lng": -38.5031653
+            },
+            "CNES": 4987,
+            "nome": " HOSPITAL PROFESSOR CARVALHO LUZ"
+        },
+        {
+            "address": "Av. Edgard Santos, S/n - Tancredo Neves, Salvador - BA, 41205-022, Brazil",
+            "latLng": {
+                "lat": -12.952794,
+                "lng": -38.4495004
+            },
+            "CNES": 4286,
+            "nome": " HOSPITAL JULIANO MOREIRA"
+        },
+        {
+            "address": "R. Saldanha Marinho, 88 - Caixa D'agua, Salvador - BA, 40323-010, Brazil",
+            "latLng": {
+                "lat": -12.9572964,
+                "lng": -38.4933853
+            },
+            "CNES": 2384582,
+            "nome": " HOSPITAL DA CIDADE"
+        },
+        {
+            "address": "R. Saldanha Marinho, s/n - Caixa D'agua, Salvador - BA, 40320-010, Brazil",
+            "latLng": {
+                "lat": -12.9572429,
+                "lng": -38.4957561
+            },
+            "CNES": 3875,            
+            "nome": " HOSPITAL ANA NERY"
+        },
+        {
+            "address": "R. São Marcos, 88 - São Marcos, Salvador - BA, 41253-050, Brazil",
+            "latLng": {
+                "lat": -12.9233371,
+                "lng": -38.4410789
+            },
+            "CNES": 3746410,            
+            "nome": " HOSPITAL 2 DE JULHO"
+        },
+        {
+            "address": "R. José Duarte, 114 - Tororo, Salvador - BA, 40050-050, Brazil",
+            "latLng": {
+                "lat": -12.983006,
+                "lng": -38.50864070000001
+            },
+            "CNES": 4278,            
+            "nome": " HOSPITAL MARTAGAO GESTEIRA"
+        },
+        {
+            "address": "Av. Princesa Isabel, 914 - Barra, Salvador - BA, 40140-901, Brazil",
+            "latLng": {
+                "lat": -13.0025418,
+                "lng": -38.524956
+            },
+            "CNES": 4251,
+            "nome": " HOSPITAL PORTUGUES"
+        },
+        {
+            "address": "R. Caetano Moura, 59 - Federação, Salvador - BA, 40210-340, Brazil",
+            "latLng": {
+                "lat": -12.9990087,
+                "lng": -38.5114734
+            },
+            "CNES": 3870197,
+            "nome": " ORTOFORT"
+        },
+        {
+            "address": "Ladeira da Teresinha, s/n - Alto da Terezinha, Salvador - BA, 40711-060, Brazil",
+            "latLng": {
+                "lat": -12.882499,
+                "lng": -38.4812825
+            },
+            "CNES": 7160488,
+            "nome": " HOSPITAL ALAYDE COSTA"
+        },
+        {
+            "address": "R. Caetano Moura, 35 - Federação, Salvador - BA, 40210-341, Brazil",
+            "latLng": {
+                "lat": -12.9987859,
+                "lng": -38.5121822
+            },
+            "CNES": 2653567,
+            "nome": " CEPARH"
+        },
+        {
+            "address": "R. Plínio de Lima, 01 - Monte Serrat, Salvador - BA, 40415-065, Brazil",
+            "latLng": {
+                "lat": -12.9254848,
+                "lng": -38.5119667
+            },
+            "CNES": 2470667,            
+            "nome": " HOSPITAL DA SAGRADA FAMILIA"
+        },
+        {
+            "address": "R. Macaúbas, 344 - Rio Vermelho, Salvador - BA, 41940-250, Brazil",
+            "latLng": {
+                "lat": -13.0100783,
+                "lng": -38.485311
+            },
+            "CNES": 2497751,            
+            "nome": " SARAH SALVADOR"
+        },
+        {
+            "address": "Av. Vasco da Gama, s/n - Brotas, Brotas de Macaúbas - BA, 40286-901, Brazil",
+            "latLng": {
+                "lat": -12.9953714,
+                "lng": -38.4908058
+            },
+            "CNES": 4294,            
+            "nome": " HOSPITAL GERAL DO ESTADO"
+        },
+        {
+            "address": "Praça Conselheiro João Alfredo, S/N - Pau Miúdo, Salvador - BA, 40320-350, Brazil",
+            "latLng": {
+                "lat": -12.9585778,
+                "lng": -38.4863475
+            },
+            "CNES": 4073,
+            "nome": " HOSPITAL GERAL ERNESTO SIMOES FILHO"
+        },
+        {
+            "address": "Largo de Roma, 161 - Roma, Salvador - BA, 40420-000, Brazil",
+            "latLng": {
+                "lat": -12.9342642,
+                "lng": -38.5077915
+            },
+            "CNES": 2802104,
+            "nome": " HOSPITAL SANTO ANTONIO"
+        },
+        {
+            "address": "Praça Conselheiro João Alfredo, S/N - Pau Miúdo, Salvador - BA, 40320-350, Brazil",
+            "latLng": {
+                "lat": -12.95925,
+                "lng": -38.485268
+            },
+            "CNES": 4065,
+            "nome": " HOSPITAL ESPECIALIZADO OCTAVIO MANGABEIRA"
+        },
+        {
+            "address":"338 - Ladeira do Hospital Geral, 162 - Brotas, Salvador - BA, Brasil",
+            "latLng":{
+               "lat":-12.9968781,
+               "lng" : -38.4902405 
+            },
+            "CNES": 3921,
+            "nome":"CICAN"
+        },
+        {
+            "address":"Av. São Rafael, 2152 - São Marcos, Salvador - BA, 41253-190, Brasil",
+            "latLng":{
+                "lat" : -12.9279249,
+                "lng" : -38.4302455
+            },
+            "CNES": 3808,
+            "nome":"HOSPITAL SAO RAFAEL"
+        }
+    ]
