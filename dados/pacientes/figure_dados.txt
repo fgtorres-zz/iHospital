@@ -1,0 +1,11 @@
+ Quantidade, Especialidade
+ 236102, "Cirurgia"
+ 181451, "Obstretícia"
+ 248015, "Clínica Médica"
+   6888, "Paciente sob cuidado prolongado"
+   7718, "Psiquiatria"
+    874, "Tissiologia"
+ 116238, "Pediatria"
+   2684, "Reabilitação"
+   6996, "Psiquiatria em hospital / dia"
+    125, "Outros" 
