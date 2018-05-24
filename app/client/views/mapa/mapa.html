@@ -1,0 +1,12 @@
+<template name="mapa">
+    <section class="mapa-holder">
+        {{> googleMap name="map" options=mapOptions}}
+        <p class="hospital-name">Escolha um hospital</p>
+        <div class="legenda">
+            <strong>Legenda</strong>
+            <p><img class="hosp" src="/icons/hosp.png" alt="">Hospitais Públicos</p>
+            <p><img class="paci" src="/icons/paciente.png" alt="">Pacientes</p>
+            <small>Dados referentes a Março/2018</small>
+        </div>
+    </section>
+</template>

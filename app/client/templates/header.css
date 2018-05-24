@@ -1,0 +1,18 @@
+.header-float{
+    position: absolute;
+    z-index: 100;
+    margin-left: auto;
+    margin-right: auto;
+    top: 16px;
+    left: 0;
+    right: 0;
+    width: 300px;
+    background: #fff;
+    height: 50px;
+    text-align: center;
+    padding-top: 6px;
+    border-radius: 5px;
+    font-family: 'Josefin Sans', sans-serif;
+    box-shadow: 5px 10px 18px #888888;
+    color: #c03b2b;
+}
