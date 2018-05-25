@@ -1,0 +1,131 @@
+Nome: HOSPITAL GERAL ROBERTO SANTOS 
+Especialidades: Especialidades: Anestesiologia, Cardiologia, Cirurgia Geral, Cirurgia Pediátrica, Cirurgia Plástica, Cirurgia Torácica, Cirurgia Vascular, Clínica Médica, Dermatologia, Endoscopia, Fisioterapia, Gastroenterologia, Ginecologia e Obstetrícia, Infectologia, Medicina Intensiva, Nefrologia,Neurologia, Odontologia, Oftalmologia, Ortopedia e Traumatologia, Patologia, Pediatria, Psiquiatria, Radiologia e Diagnóstico Por Imagem, Urologia.
+
+Nome: ALCLIN ITAIGARA
+Especialidades: Anestesiologia, Cirurgia Geral, Cirurgia Plástica, Oftalmologia.
+
+Nome: HOSPITAL PROHOPE
+Especialidades: Anestesiologia, Cirurgia Geral, Cirurgia Plástica, Oftalmologia. 
+
+Nome: HOSPITAL UNIVERSITARIO PROFESSOR EDGARD SANTOS
+Especialidades: Alergia e Imunologia, Análises Clínicas, Anestesiologia, Angiologia, Cancerologia, Cardiologia, Cirurgia Cardiovascular, Cirurgia de Cabeça e Pescoço, Cirurgia Geral, Cirurgia Plástica, Cirurgia Torácica, Clínica Médica, Dermatologia, Endocrinologia e Metabologia, Endoscopia, Gastroenterologia, Genética Médica, Geriatria, Ginecologia e Obstetrícia, Hematologia e Hemoterapia, Infectologia, Mastologia, Medicina do Trabalho, Medicina Intensiva, Medicina Nuclear, Nefrologia, Neurocirurgia, Neurologia, Oftalmologia, Ortopedia e Traumatologia, Otorrinolaringologia, Patologia, Pediatria, Pneumologia, Psiquiatria, Radiologia e Diagnóstico Por Imagem, Reumatologia, Urologia.
+
+Nome: HOSPITAL ARISTIDES MALTEZ
+Especialidades: Alergia e Imunologia, Análises Clínicas, Anestesiologia, Cancerologia, Cardiologia, Cirurgia de Cabeça e Pescoço, Cirurgia Geral, Cirurgia Plástica, Clínica Médica, Coloproctologia, Dermatologia, Endoscopia, Gastroenterologia, Ginecologia e Obstetrícia, Hematologia e Hemoterapia, Infectologia, Mastologia, Medicina do Trabalho, Medicina Intensiva, Medicina Nuclear, Neurocirurgia, Odontologia, Ortopedia e Traumatologia, Patologia, Pediatria, Pneumologia,Radiologia e Diagnóstico Por Imagem, Urologia. 
+
+Nome: OFTALMODIAGNOSE HOSPITAL DE OLHOS
+Especialidades: Cirurgia Plástica, Oftalmologia, Radiologia e Diagnóstico Por Imagem.
+
+Nome: CDTO
+Especialidades: Oftalmologia.
+
+Nome: HOSPITAL DA MULHER
+Especialidades: Cardiologia, Pneumologia, Proctologia, Ortopedia, Ginecologia, Endocrinologia, Cirurgia ginecológica e Cirurgia geral
+
+Nome: HOSPITAL ELADIO LASSERRE
+Especialidades: Anestesiologia, Cardiologia, Cirurgia Geral, Cirurgia Pediátrica, Clínica Médica, Ortopedia e Traumatologia, Pediatria, Radiologia e Diagnóstico Por Imagem, Nome: INSTITUTO DE PERINATOLOGIA DA BAHIA
+Anestesiologia, Clínica Médica, Ginecologia e Obstetrícia, Medicina do Trabalho, Oftalmologia, Pediatria, Radiologia e Diagnóstico Por Imagem.
+
+Nome: MATERNIDADE JOAO BATISTA CARIBE
+Especialidades: Anestesiologia, Cardiologia, Cirurgia Geral, Clínica Médica, Coloproctologia, Ginecologia e Obstetrícia, Ortopedia e Traumatologia, Pediatria, Radiologia e Diagnóstico Por Imagem. 
+
+Nome: MATERNIDADE PROFESSOR JOSE MARIA DE MAGALHAES NETO
+Especialidades: Anestesiologia, Cardiologia, Cirurgia Geral, Cirurgia Pediátrica, Clínica Médica, Endocrinologia e Metabologia, Ginecologia e Obstetrícia, Hematologia e Hemoterapia, Medicina Intensiva, Neurologia, Pediatria, Radiologia e Diagnóstico Por Imagem.
+
+Nome: CEDAP
+Especialidades: Infectologia.
+
+Nome: HOSPITAL SANTA ISABEL
+Especialidades: Cirurgia do Aparelho Digestivo, Cirurgia Geral, Cirurgia Oncológica, Cirurgia Plástica, Dermatologia.
+
+Nome: HOSPITAL ESPECIALIZADO COUTO MAIA
+Especialidades: Cirurgia Geral, Cirurgia Pediátrica, Clínica Médica, Endocrinologia e Metabologia, Infectologia, Nefrologia, Pediatria, Pneumologia, Radiologia e Diagnóstico Por Imagem.
+
+Nome: HOSPITAL MANOEL VICTORINO
+Especialidades: Anestesiologia, Angiologia, Cirurgia Geral, Cirurgia Plástica, Clínica Médica, Infectologia, Mastologia, Medicina do Trabalho, Medicina Intensiva, Medicina Legal e Perícia Médica, Nefrologia, Ortopedia e Traumatologia, Otorrinolaringologia, Pediatria, Radiologia e Diagnóstico Por Imagem.
+
+Nome: MATERNIDADE CLIMERIO DE OLIVEIRA
+Especialidades: Anestesiologia, Cirurgia Geral, Genética Médica, Ginecologia e Obstetrícia, Mastologia, Odontologia, Oftalmologia, Pediatria, Radiologia e Diagnóstico Por Imagem.
+
+Nome: CLIVAN INSTITUTO DE OFTALMOLOGIA
+Especialidades: Anestesiologia, Oftalmologia.
+
+Nome: HOSPITAL HUMBERTO CASTRO LIMA
+Especialidades: Anestesiologia, Oftalmologia.
+
+Nome: HOSPITAL ESPECIALIZADO MARIO LEAL
+Especialidades: Clínica Médica, Neurologia, Psiquiatria.
+
+Nome: HOSPITAL EVANGELICO DA BAHIA HEB
+Especialidades: Alergia e Imunologia, Análises Clínicas, Anestesiologia, Angiologia, Cancerologia, Cardiologia, Cirurgia Cardiovascular, Cirurgia da Mão, Cirurgia de Cabeça e Pescoço, Cirurgia do Aparelho Digestivo, Cirurgia e Traumatologia Buco-Maxilo-Facial, Cirurgia Geral, Cirurgia Pediátrica, Cirurgia Plástica, Cirurgia Torácica, Clínica Médica, Coloproctologia, Endocrinologia e Metabologia, Geriatria, Ginecologia e Obstetrícia, Hematologia e Hemoterapia, Homeopatia, Infectologia, Mastologia, Nefrologia, Neurocirurgia, Neurologia, Nutrologia, Ortopedia e Traumatologia, Otorrinolaringologia, Patologia, Pneumologia, Psiquiatria, Radiologia e Diagnóstico Por Imagem, Radioterapia, Reumatologia, Urologia.
+
+Nome: MATERNIDADE TSYLLA BALBINO
+Especialidades: Análises Clínicas, Anestesiologia, Ginecologia e Obstetrícia, Pediatria.
+
+Nome: UNIDADE MISTA DR JOSE CARNEIRO DE CAMPOS
+Especialidades: Cardiologia, Clínica Médica, Ginecologia e Obstetrícia, Neurologia, Odontologia, Oftalmologia, Pediatria. 
+
+Nome: MATERNIDADE ALBERT SABIN
+Especialidades: Anestesiologia, Ginecologia e Obstetrícia, Oftalmologia, Pediatria, Radiologia e Diagnóstico Por Imagem.
+
+Nome: HOSPITAL SANTA LUZIA
+Especialidades: Clínica Médica, Oftalmologia, Radiologia e Diagnóstico Por Imagem.
+
+Nome: HOSPITAL DO SUBURBIO
+Especialidades: Cirurgia geral, Ortopédica, Vascular, Urológica, Pediátrica, Bucomaxilofacial, Torácica, Plástica, Oftalmológica, Neurocirúrgica e Otorrinolaringológica , Infectologia, Hematologia, Pediatria Clínica, Cardiologia, Gastroenterologia,Nefrologia, Neurologia Clínica, Neuropediatria, Psiquiatria, Nutrologia.
+
+Nome: HOSPITAL PROFESSOR CARVALHO LUZ
+Especialidades: Anestesiologia, Cardiologia, Cirurgia Geral, Clínica Médica, Infectologia, Neurologia, Radiologia e Diagnóstico Por Imagem.
+
+Nome: HOSPITAL JULIANO MOREIRA
+Especialidades: Clínica Médica, Neurologia, Odontologia, Pediatria, Psicologia, Psiquiatria.
+
+Nome: HOSPITAL DA CIDADE
+Especialidades: Análises Clínicas, Anestesiologia, Angiologia, Cancerologia, Cirurgia da Mão, Cirurgia de Cabeça e Pescoço, Cirurgia do Aparelho Digestivo, Cirurgia Geral, Cirurgia Pediátrica, Cirurgia Plástica, Coloproctologia, Dermatologia, Endocrinologia e Metabologia, Geriatria, Ginecologia e Obstetrícia, Hematologia e Hemoterapia, Infectologia, Mastologia, Neurocirurgia, Neurologia, Ortopedia e Traumatologia, Otorrinolaringologia, Patologia, Pneumologia, Radiologia e Diagnóstico Por Imagem, Reumatologia, Urologia.
+
+Nome: HOSPITAL ANA NERY
+Especialidades: Anestesiologia, Angiologia, Cancerologia, Cardiologia, Cirurgia Cardiovascular, Cirurgia de Cabeça e Pescoço, Cirurgia do Aparelho Digestivo, Cirurgia Geral, Cirurgia Pediátrica, Cirurgia Torácica, Cirurgia Vascular, Clínica Médica, Coloproctologia, Endocrinologia e Metabologia, Enfermagem, Ginecologia e Obstetrícia, Hematologia e Hemoterapia, Infectologia, Medicina do Trabalho, Medicina Intensiva, Nefrologia, Neurocirurgia, Neurologia, Odontologia, Oftalmologia, Patologia, Pediatria, Pneumologia, Radiologia e Diagnóstico Por Imagem, Urologia.
+
+Nome: HOSPITAL 2 DE JULHO
+Especialidades: Anestesiologia, Angiologia, Cancerologia, Cirurgia Cardiovascular, Cirurgia Geral, Cirurgia Torácica, Clínica Médica, Coloproctologia, Endocrinologia e Metabologia, Gastroenterologia, Ginecologia e Obstetrícia, Hematologia e Hemoterapia, Infectologia, Mastologia, Nefrologia, Neurologia, Pneumologia, Reumatologia, Urologia.
+
+Nome: HOSPITAL MARTAGAO GESTEIRA
+Especialidades: Anestesiologia, Cancerologia, Cardiologia, Cirurgia Pediátrica, Cirurgia Plástica, Clínica Médica, Gastroenterologia, Hematologia e Hemoterapia, Medicina Intensiva, Neurologia, Odontologia, Ortopedia e Traumatologia, Pediatria, Psiquiatria, Radiologia e Diagnóstico Por Imagem, Urologia.
+
+Nome: HOSPITAL PORTUGUES
+Especialidades: Alergia e Imunologia, Análises Clínicas, Anestesiologia, Angiologia, Cancerologia, Cardiologia, Cirurgia Cardiovascular, Cirurgia da Mão, Cirurgia de Cabeça e Pescoço, Cirurgia do Aparelho Digestivo, Cirurgia e Traumatologia Buco-Maxilo-Facial, Cirurgia Geral, Cirurgia Pediátrica, Cirurgia Plástica, Cirurgia Torácica, Cirurgia Vascular, Clínica Médica, Coloproctologia, Dermatologia, Endocrinologia e Metabologia, Endoscopia, Enfermagem, Gastroenterologia, Generalista, Genética Médica, Geriatria, Ginecologia e Obstetrícia, Hematologia e Hemoterapia, Homeopatia, Infectologia, Mastologia, Medicina do Trabalho, Medicina Intensiva, Medicina Interna, Medicina Legal e Perícia Médica, Medicina Nuclear, Nefrologia, Neurocirurgia, Neurologia, Nutrologia, Odontologia, Oftalmologia, Ortopedia e Traumatologia, Otorrinolaringologia, Patologia, Pediatria, Pneumologia, Radiologia e Diagnóstico Por Imagem, Radioterapia, Reumatologia, Urologia.
+
+Nome: ORTOFORT
+Especialidades: Cancerologia, Cirurgia Geral, Clínica Médica, Ginecologia e Obstetrícia, Medicina Física e Reabilitação, Ortopedia e Traumatologia.
+
+Nome: HOSPITAL ALAYDE COSTA 
+Especialidades: Anestesiologia, Biomedicina, Cirurgia geral, Clínica médica, Enfermagem, Farmacêutico, Fisioterapia, Fonoaudiologia,  Infectologia, Nefrologia, Neurocirurgia, Neurologia, Nutrição, Odontologia, Ortopedia e traumatologia, Psicologia,Psiquiatria, Radiologia e diagnóstico por imagem, Serviço social.
+
+Nome: CEPARH
+Especialidades: Coloproctologia, Ginecologia e Obstetrícia, Mastologia, Urologia.
+
+Nome: HOSPITAL DA SAGRADA FAMILIA
+Especialidades: Anestesiologia, Angiologia, Cardiologia, Cirurgia e Traumatologia Buco-Maxilo-Facial, Cirurgia Geral, Cirurgia Pediátrica, Cirurgia Plástica, Clínica Médica, Endocrinologia e Metabologia, Gastroenterologia, Ginecologia e Obstetrícia, Infectologia, Medicina Intensiva, Nefrologia, Neurocirurgia, Radiologia e Diagnóstico Por Imagem, Urologia.
+
+Nome: SARAH SALVADOR
+Especialidades: Anestesiologia, Cardiologia, Cirurgia Geral, Clínica Médica, Dermatologia, Fisioterapia, Genética Médica, Hematologia e Hemoterapia, Medicina do Trabalho, Neurocirurgia, Neurologia, Ortopedia e Traumatologia, Patologia, Pediatria, Pneumologia, Radiologia e Diagnóstico Por Imagem, Urologia.
+
+Nome: HOSPITAL GERAL DO ESTADO
+Especialidades: Anestesiologia, Angiologia, Cancerologia, Cardiologia, Cirurgia Cardiovascular, Cirurgia de Cabeça e Pescoço, Cirurgia do Aparelho Digestivo, Cirurgia Geral, Cirurgia Pediátrica, Cirurgia Plástica, Cirurgia Torácica, Cirurgia Vascular, Clínica Médica, Coloproctologia, Endocrinologia e Metabologia, Endoscopia, Gastroenterologia, Ginecologia e Obstetrícia, Infectologia, Medicina do Trabalho, Medicina Intensiva, Medicina Interna, Nefrologia, Neurocirurgia, Neurologia, Odontologia, Oftalmologia, Ortopedia e Traumatologia, Otorrinolaringologia, Pediatria, Pneumologia, Psicologia, Radiologia e Diagnóstico Por Imagem, Urologia.
+
+Nome: HOSPITAL GERAL ERNESTO SIMOES FILHO
+Especialidades: Anestesiologia, Angiologia, Cardiologia, Cirurgia Geral, Cirurgia Pediátrica, Cirurgia Plástica, Cirurgia Vascular, Clínica Médica, Ginecologia e Obstetrícia, Hematologia e Hemoterapia, Infectologia, Medicina Intensiva, Nefrologia, Neurologia, Nutrologia, Ortopedia e Traumatologia, Pediatria, Psiquiatria, Radiologia e Diagnóstico Por Imagem, Reumatologia, Urologia.
+
+Nome: HOSPITAL SANTO ANTONIO
+Especialidades: Análises Clínicas, Anestesiologia, Angiologia, Cancerologia, Cardiologia, Cirurgia de Cabeça e Pescoço, Cirurgia e Traumatologia Buco-Maxilo-Facial, Cirurgia Geral, Cirurgia Pediátrica, Cirurgia Plástica, Clínica Médica, Dermatologia, Endoscopia, Gastroenterologia, Geriatria, Ginecologia e Obstetrícia, Homeopatia, Medicina Intensiva, Neurologia, Odontologia, Oftalmologia, Ortopedia e Traumatologia, Otorrinolaringologia, Patologia, Pediatria, Pneumologia, Psiquiatria, Radiologia e Diagnóstico Por Imagem, Reumatologia.
+
+Nome: HOSPITAL ESPECIALIZADO OCTAVIO MANGABEIRA
+Especialidades: Anestesiologia, Cancerologia, Cardiologia, Cirurgia Geral, Cirurgia Pediátrica, Cirurgia Torácica, Clínica Médica, Dermatologia, Ginecologia e Obstetrícia, Infectologia, Medicina de Urgência, Medicina Intensiva, Pediatria, Pneumologia, Radiologia e Diagnóstico Por Imagem. 
+
+Nome: CICAN
+Especialidades: Anestesiologia, Cancerologia, Cirurgia Geral, Clínica Médica, Dermatologia, Ginecologia e Obstetrícia,Hematologia e Hemoterapia, Mastologia, Patologia, Psiquiatria, Radiologia e Diagnóstico Por Imagem, Urologia.
+
+Nome: HOSPITAL SAO RAFAEL
+Especialidades: Acupuntura Médica, Alergia e Imunologia, Análises Clínicas, Anestesiologia, Angiologia, Cancerologia, Cardiologia, Cirurgia Cardiovascular, Cirurgia da Mão, Cirurgia de Cabeça e Pescoço, Cirurgia do Aparelho Digestivo, Cirurgia Geral, Cirurgia Pediátrica, Cirurgia Plástica, Cirurgia Torácica, Cirurgia Vascular, Clínica Médica, Coloproctologia, Dermatologia, Endocrinologia e Metabologia, Endoscopia, Fisioterapia, Gastroenterologia, Genética Médica, Geriatria, Ginecologia e Obstetrícia, Hematologia e Hemoterapia, Homeopatia, Infectologia, Mastologia, Medicina de Família e Comunidade, Medicina do Trabalho, Medicina Física e Reabilitação, Medicina Intensiva, Medicina Nuclear, Nefrologia, Neurocirurgia, Neurologia, Nutrologia, Odontologia, Oftalmologia, Ortopedia e Traumatologia, Otorrinolaringologia, Patologia, Pediatria, Pneumologia, Psiquiatria, Radiologia e Diagnóstico Por Imagem, Radioterapia, Reumatologia, Terapias Complementares, Urologia.
+
+                                
