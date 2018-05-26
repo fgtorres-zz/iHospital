@@ -1,0 +1,7 @@
+{
+    "public": {},
+    "private": {
+      "MONGO": "mongodb+srv://orni:hackathoncampus@cluster0-ixig4.mongodb.net/test?retryWrites=true"
+    },
+    "aboutAPIKeySecurity": "https://themeteorchef.com/tutorials/making-use-of-settings-json"
+  }

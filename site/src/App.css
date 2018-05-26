@@ -1,0 +1,18 @@
+/* 
+Navy #200566
+Midnight Blue #2C0E8B
+Gainsboro #E2E1E0
+Midnight Blue #18093C
+Slate Blue #3A47BD
+Laranjão:#FF8C19
+*/
+
+html, body{
+  font-family: 'Montserrat', sans-serif;
+}
+li{
+  list-style: none;
+}
+a{
+  text-decoration: none;
+}

@@ -1,0 +1,28 @@
+.section-team{
+    text-align: center;
+    margin-top: 65px;
+    background: rgba(186, 190, 228, 0.1);
+    /* background: #3A47BD; */
+    color:#18093C;
+    padding: 20px 100px;
+}
+.section-team h2{
+    margin-bottom: 40px;
+    text-transform: uppercase;
+    color:#18093C;    
+}
+.team-holder{
+    width: 25%;
+    display: inline-block;
+}
+.team-img-holder{
+    overflow: hidden;
+    border-radius: 50%;
+    width: 190px;
+    height: 190px;
+    margin: 0 auto;
+}
+.team-img-holder img{
+    width: 120%;
+    margin-left: -15px;
+}

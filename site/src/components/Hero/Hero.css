@@ -1,0 +1,20 @@
+.hero-img-holder{
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    height: 100vh;
+}
+.hero-text-holder{
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    text-align: center;
+    color: #fff;
+    top: 37vh;
+    font-size: 3vh;
+}
+.hero-text-holder h1{
+    text-transform: uppercase;
+}
