@@ -1,6 +1,6 @@
 # Site da Overdata
 
-Abra um terminal, entre nesta pasta ('/site')
-Rode 'npm i --save'
-Rode 'npm start'
-Acesse localhost:3000
+1. Abra um terminal, entre nesta pasta ('/site')
+2. Rode 'npm i --save'
+3. Rode 'npm start'
+4. Acesse localhost:3000
