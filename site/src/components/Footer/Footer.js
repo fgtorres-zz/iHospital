@@ -25,7 +25,7 @@ class Footer extends Component{
                     <ul className="footer-ul">
                         <li><strong>Contato</strong></li>
                         <li><i class="fal fa-envelope"></i> felipe@overdatalab.com</li>
-                        <li><i class="fab fa-whatsapp"></i> 71 98767-8767</li>
+                        <li><i class="fab fa-whatsapp"></i> 71 9258-7654</li>
                     </ul>
                     <ul className="footer-ul">
                         <li className="logo-footer"><i class="fal fa-chess-king-alt"></i> Overdata Lab</li>
