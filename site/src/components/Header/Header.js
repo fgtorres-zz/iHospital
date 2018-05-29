@@ -7,7 +7,8 @@ class Header extends Component{
     }
     handleScroll=()=>{
         const element = document.getElementById("header");
-        if (window.pageYOffset > 70) {
+        const viewW = Math.max(document.documentElement.clientWidth, window.innerWidth || 0);
+        if (window.pageYOffset > 70 && viewW >=600) {
             element.classList.add("active");
         }
         else{

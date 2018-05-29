@@ -49,6 +49,10 @@
 }
 
 @media screen and (max-width: 600px) {
+    .header-container{
+        height: 0;
+        overflow: hidden;
+    }
     .header-fixed{
         position: unset;
         height: 50px;

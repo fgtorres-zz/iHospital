@@ -11,3 +11,11 @@
     max-width: 530px;
     border-radius: 8px;
 }
+@media screen and (max-width: 600px) {
+    .app-img-sub p{
+        padding: 0 20px;
+    }
+    .app-img-holder img{
+        width: 100%;
+    }        
+}
