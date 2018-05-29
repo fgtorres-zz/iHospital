@@ -15,7 +15,8 @@
     right: 0;
     text-align: center;
     color: #fff;
-    top: 37vh;
+    top: 35%;
+    /* top: 37vh; */
     font-size: 3vh;
 }
 .hero-text-holder h1{
