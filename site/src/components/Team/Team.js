@@ -9,7 +9,7 @@ class Team extends Component{
     render(){
         return(
             <section className="section-team">
-                <h2>Quem somos nós</h2>
+                <h2>Quem somos</h2>
                 <div className="team-holder">
                     <div className="team-img-holder">
                         <img src={felipe} alt=""/>
