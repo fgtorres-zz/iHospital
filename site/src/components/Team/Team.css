@@ -6,6 +6,10 @@
     padding: 7px 100px;
     padding-bottom: 20px;
 }
+.section-team .subtitle{
+    font-size: 13px
+}
+
 .section-team h2{
     margin-bottom: 40px;
     text-transform: uppercase;

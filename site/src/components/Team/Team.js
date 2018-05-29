@@ -14,25 +14,29 @@ class Team extends Component{
                     <div className="team-img-holder">
                         <img src={felipe} alt=""/>
                     </div>
-                    <p>Felipe Torres</p>
+                    <h4>Felipe Torres</h4>
+                    <p class="subtitle">CEO e Cientista de dados</p>
                 </div>
                 <div className="team-holder">
                     <div className="team-img-holder">
                         <img src={joao} alt=""/>
                     </div>
-                    <p>João Pedro Villas-Boas</p>
+                    <h4>João Pedro Villas-Boas</h4>
+                    <p class="subtitle">Analista de Backend</p>
                 </div>
                 <div className="team-holder">
                     <div className="team-img-holder">
                         <img src={jocta} alt=""/>
                     </div>
-                    <p>Jocta Argôlo</p>
+                    <h4>Jocta Torres</h4>
+                    <p class="subtitle">Cientista de dados</p>
                 </div>
                 <div className="team-holder">
                     <div className="team-img-holder">
                         <img src={rafael} alt=""/>
                     </div>
-                    <p>Rafael Melo</p>
+                    <h4>Rafael Melo</h4>
+                    <p class="subtitle">Analista de Frontend</p>
                 </div>
             </section>
         )

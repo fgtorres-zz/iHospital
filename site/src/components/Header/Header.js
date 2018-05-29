@@ -30,13 +30,13 @@ class Header extends Component{
                                 <a href="">Home</a>
                             </li>
                             <li className="nav-header-item">
-                                <a href="">O Que Fazemos</a>
+                                <a href="#section-activities">O Que Fazemos</a>
                             </li>
                             <li className="nav-header-item">
                                 <a href="">Portfólio</a>
                             </li>
                             <li className="nav-header-item">
-                                <a href="">Equipe</a>
+                                <a href="#section-team">Equipe</a>
                             </li>
                         </ul>
                     </nav>

@@ -13,7 +13,9 @@ class Footer extends Component{
                 <div className="second-footer">
                     <ul className="footer-ul">
                         <li><strong>Sobre</strong></li>
-                        <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde perspiciatis sunt dolor alias laboriosam possimus.</li>
+                        <li>Somos uma empresa com foco em resultado e desenvolvimento de soluções para dados da
+                        área de saúde. Transformamos os dados e extraimos deles informações que podem auxiliar,
+                        nas pesquisas acadêmicas ou decisões empresariais.</li>
                     </ul>
                     <ul className="footer-ul">
                         <li><strong>Site</strong></li>
@@ -24,8 +26,7 @@ class Footer extends Component{
                     </ul>
                     <ul className="footer-ul">
                         <li><strong>Contato</strong></li>
-                        <li><i class="fal fa-envelope"></i> felipe@overdatalab.com</li>
-                        <li><i class="fab fa-whatsapp"></i> 71 9258-7654</li>
+                        <li><i class="fal fa-envelope"></i>felipe@overdatalab.com</li>
                     </ul>
                     <ul className="footer-ul">
                         <li className="logo-footer"><i class="fal fa-chess-king-alt"></i> Overdata Lab</li>
