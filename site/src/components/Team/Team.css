@@ -1,10 +1,10 @@
 .section-team{
     text-align: center;
-    margin-top: 65px;
-    background: rgba(186, 190, 228, 0.1);
-    /* background: #3A47BD; */
+    margin-top: 8px;
+    /* background: rgba(186, 190, 228, 0.1); */
     color:#18093C;
-    padding: 20px 100px;
+    padding: 7px 100px;
+    padding-bottom: 20px;
 }
 .section-team h2{
     margin-bottom: 40px;

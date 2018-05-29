@@ -1,3 +1,6 @@
+.section-hero{
+    margin-top: 0!important;
+}
 .hero-img-holder{
     background-position: center;
     background-size: cover;
@@ -17,4 +20,6 @@
 }
 .hero-text-holder h1{
     text-transform: uppercase;
+    font-size: 3rem;
+    margin-bottom: 0;
 }

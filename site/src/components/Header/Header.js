@@ -21,12 +21,15 @@ class Header extends Component{
                     <div className="logo-header-holder">
                         {/* <img src="" alt="logo"/> */}
                         <i class="fal fa-chess-king-alt"></i>
-                        Overdata
+                        Overdata Lab
                     </div>
                     <nav className="nav-header">
                         <ul>
                             <li className="nav-header-item">
                                 <a href="">Home</a>
+                            </li>
+                            <li className="nav-header-item">
+                                <a href="">O Que Fazemos</a>
                             </li>
                             <li className="nav-header-item">
                                 <a href="">Portfólio</a>

@@ -12,8 +12,10 @@ class Hero extends Component{
             <section className="section-hero">
                 <div className="hero-img-holder" style={style}>
                     <div className='hero-text-holder'>
-                        <h1>Inteligência em Análise de Dados</h1>
-                        <h5>Descubra o que os dados podem te dizer</h5>
+                        {/* <h1>Inteligência em Análise de Dados</h1> */}
+                        <h1>Overdata Lab</h1>
+                        {/* <h5>Descubra o que os dados podem te dizer</h5> */}
+                        <h5>Inteligência em Análise de Dados</h5>
                     </div>
                 </div>
             </section>
