@@ -16,6 +16,9 @@
 .header-fixed.active a{
     color: #18093C;
 }
+.menu-btn-holder{
+    display: none;
+}
 .header-container .nav-header ul{
     display: flex;
     justify-content: space-between;
@@ -42,6 +45,7 @@
 .nav-header{
     display: inline-block;
     width: 80%;
+    transition: width .4s;
 }
 .header-container li{
     display: inline-block;
@@ -49,21 +53,58 @@
 }
 
 @media screen and (max-width: 600px) {
-    .header-container{
-        height: 0;
-        overflow: hidden;
-    }
     .header-fixed{
-        position: unset;
+        position: fixed;
         height: 50px;
         padding-top: 14px;
         font-size: 18px;
+        background: rgba(0,0,0,0.85);
     }
     .logo-header-holder{
-        display: block;
-        width: 100%;
+        display: inline-block;
+        width: 80%;
+    }
+    .logo-header-holder i{
+        padding-left: 72px;
+    }
+    .menu-btn-holder{
+        width: 20%;
+        display: inline-block;
+        text-align: right;
+    }
+    .menu-btn{
+        font-size: 24px;
+        background: transparent;
+        border: none;
+        color: #fff;
+        padding-right: 16px;
     }
     .nav-header{
-        display: none;
+        overflow: hidden;
+        position: absolute;
+        width: 0;
+        /* width: 80vw; */
+        bottom: 0;
+        background: black;
+        top: 0;
+        height: 100vh;
+        display: block;
+        right: 0;
+    }
+    .header-container .nav-header ul{
+        height: 100vh;
+        width: 100%;
+        display: unset;
+    }
+    .header-container{
+        overflow: hidden;
+    }
+    .header-container li{
+        display: block;
+        text-align: center;
+        height: 50px;
+        min-width: 200px;
+        font-size: 20px;
+        margin-top: 50px;
     }
 }

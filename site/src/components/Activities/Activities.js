@@ -1,8 +1,7 @@
 import React, { Component } from 'react';
 import './Activities.css';
 import data from '../../assets/icons/Collection/bigData.png';
-import con from '../../assets/icons/Collection/con1.png';
-import fim from '../../assets/icons/Collection/final.png';
+import con from '../../assets/icons/Collection/con.png';
 import statistics from '../../assets/icons/Collection/icons8-scatter-plot.png';
 import dash from '../../assets/icons/Collection/icons8-profit-chart.png';
 
@@ -27,8 +26,7 @@ class Activities extends Component{
                     </div>
                     <div className="activities-text">
                         <h3>Bioinformática</h3>
-                        <p>Atuamos com análises de dados biológicos e médicos. Gerenciamento de bancos de dados
-                        clínicos e desenvolvimento de ferramentas na área de bioinformática e computação aplicada a saúde.</p>
+                        <p>Atuamos com gerenciamento de bancos de dados clínicos e desenvolvimento de ferramentas na área de bioinformática e computação aplicada a saúde.</p>
                     </div>
                 </div>
                 <div className="box-activities">

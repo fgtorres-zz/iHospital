@@ -7,7 +7,8 @@
     padding-bottom: 20px;
 }
 .section-team .subtitle{
-    font-size: 13px
+    font-size: 13px;
+    margin-top: 0;
 }
 
 .section-team h2{
@@ -18,6 +19,9 @@
 .team-holder{
     width: 25%;
     display: inline-block;
+}
+.team-holder h4{
+    margin-bottom: 8px;
 }
 .team-img-holder{
     overflow: hidden;

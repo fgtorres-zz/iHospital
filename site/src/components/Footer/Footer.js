@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import './Footer.css';
-import expand from '../../assets/expand.gif';
 
 class Footer extends Component{
     render(){
@@ -26,10 +25,10 @@ class Footer extends Component{
                     </ul>
                     <ul className="footer-ul">
                         <li><strong>Contato</strong></li>
-                        <li><i class="fal fa-envelope"></i>felipe@overdatalab.com</li>
+                        <li><i className="fal fa-envelope"></i> felipe@overdatalab.com</li>
                     </ul>
                     <ul className="footer-ul">
-                        <li className="logo-footer"><i class="fal fa-chess-king-alt"></i> Overdata Lab</li>
+                        <li className="logo-footer"><i className="fal fa-chess-king-alt"></i> Overdata Lab</li>
                     </ul>
                 </div>
             </footer>
