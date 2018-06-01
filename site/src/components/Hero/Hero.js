@@ -9,7 +9,7 @@ const style = {
 class Hero extends Component{
     render(){
         return(
-            <section className="section-hero">
+            <section className="section-hero" id="section-hero">
                 <div className="hero-img-holder" style={style}>
                     <div className='hero-text-holder'>
                         {/* <h1>Inteligência em Análise de Dados</h1> */}

@@ -8,8 +8,8 @@ import rafael from '../../assets/rafael.jpg';
 class Team extends Component{
     render(){
         return(
-            <section className="section-team">
-                <h2>Quem somos</h2>
+            <section className="section-team" id="section-team">
+                <h2>Nossa equipe</h2>
                 <div className="team-holder">
                     <div className="team-img-holder">
                         <img src={felipe} alt=""/>

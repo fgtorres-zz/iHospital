@@ -5,8 +5,8 @@ import app from '../../assets/iHospital.png';
 class Products extends Component{
     render(){
         return(
-            <section className="section-products">
-                <h2>Nossos Produtos</h2>
+            <section className="section-products" id="section-trabalhos">
+                <h2>Nossos Trabalhos</h2>
                 <div className="produtos-holder">
                     <div className="app-img-holder">
                         <img src={app} alt="iHospital logo"/>
