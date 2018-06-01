@@ -16,35 +16,38 @@ class Header extends Component{
             element.classList.remove("active");            
         }
     }
+    hideMenu = ()=>{
+        const viewPortWidth = Math.max(document.documentElement.clientWidth, window.innerWidth || 0);
+        if (viewPortWidth < 600) {
+            const element = document.querySelector('.nav-header')
+            element.style.width = "0";    
+        }
+    }
     handleBurger = ()=>{
         const element = document.querySelector('.nav-header')
         element.style.width = "80vw";
     }
     handleHome = (e)=>{
         e.preventDefault()
-        const element = document.querySelector('.nav-header')
-        element.style.width = "0";
+        this.hideMenu();
         const redirect = document.querySelector('#section-hero');
         smoothScroll(redirect);
     }
     handleDoit = (e)=>{
         e.preventDefault()
-        const element = document.querySelector('.nav-header')
-        element.style.width = "0";
+        this.hideMenu();
         const redirect = document.querySelector('#section-activities');
         smoothScroll(redirect);
     }
     handleProd = (e)=>{
         e.preventDefault()
-        const element = document.querySelector('.nav-header')
-        element.style.width = "0";
+        this.hideMenu();
         const redirect = document.querySelector('#section-trabalhos');
         smoothScroll(redirect);
     }
     handleTeam = (e)=>{
         e.preventDefault()
-        const element = document.querySelector('.nav-header')
-        element.style.width = "0";
+        this.hideMenu();
         const redirect = document.querySelector('#section-team');
         smoothScroll(redirect);
     }
