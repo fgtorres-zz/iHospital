@@ -22,7 +22,7 @@ class Team extends Component{
                         <img src={joao} alt=""/>
                     </div>
                     <h4>João Pedro Villas-Boas</h4>
-                    <p class="subtitle">Analista de Backend</p>
+                    <p class="subtitle">Desenvolvedor Fullstack</p>
                 </div>
                 <div className="team-holder">
                     <div className="team-img-holder">
@@ -36,7 +36,7 @@ class Team extends Component{
                         <img src={rafael} alt=""/>
                     </div>
                     <h4>Rafael Melo</h4>
-                    <p class="subtitle">Analista de Frontend</p>
+                    <p class="subtitle">Desenvolvedor Fullstack</p>
                 </div>
             </section>
         )
