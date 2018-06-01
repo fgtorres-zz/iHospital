@@ -1,9 +1,9 @@
 import React, { Component } from 'react';
 import './Activities.css';
-import data from '../../assets/icons/Collection/bigData.png';
-import con from '../../assets/icons/Collection/con.png';
-import statistics from '../../assets/icons/Collection/icons8-scatter-plot.png';
-import dash from '../../assets/icons/Collection/icons8-profit-chart.png';
+import data from '../../assets/bigData.png';
+import con from '../../assets/con.png';
+import statistics from '../../assets/scatter.png';
+import dash from '../../assets/chart.png';
 
 class Activities extends Component{
     render(){
