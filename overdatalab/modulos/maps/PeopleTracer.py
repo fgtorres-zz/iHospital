@@ -9,7 +9,7 @@ class LocaisGoogleMaps:
     def getGoogleMapsDatabyCEP(self, CEP):
         url = "https://geocoder.cit.api.here.com/6.2/geocode.json?app_id=C6ooizxM0OzLdxXz9s1l&app_code=n7IqZmnADjSGjmKGT_JSAQ&searchtext=" + CEP
         rs = requests.get(url)
-        content = rs.content.decode('utf8')
+        content = rs.content
         # content = rs.content.decode('utf8').replace("'", '"')
         page_json = json.loads(content)
         return page_json
@@ -37,4 +37,9 @@ class LocaisGoogleMaps:
 
     def getCodigoPostal(self):
         return self.location['Response']['View'][0]['Result'][0]['Location']['Address']['PostalCode']
+    
+    
+  
 
+    
+        
