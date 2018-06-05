@@ -5,7 +5,8 @@ import app from '../../assets/iHospital.png';
 class Products extends Component{
     render(){
         return(
-            <section className="section-products" id="section-trabalhos">
+            <section className="section-products">
+                <div className="scroll-hack" id="section-trabalhos"></div>                        
                 <h2>Nossos Trabalhos</h2>
                 <div className="produtos-holder">
                     <div className="app-img-holder">

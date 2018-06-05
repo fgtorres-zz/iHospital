@@ -34,6 +34,10 @@
     width: 120%;
     margin-left: -15px;
 }
+.linkedin-holder{
+    color:#0077B5;
+    font-size: 18px;
+}
 @media screen and (max-width: 600px) {
     .section-team{
         padding: 0;

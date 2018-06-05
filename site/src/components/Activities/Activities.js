@@ -1,14 +1,15 @@
 import React, { Component } from 'react';
 import './Activities.css';
 import data from '../../assets/bigData.png';
-import con from '../../assets/con.png';
+import con from '../../assets/ai.png';
 import statistics from '../../assets/scatter.png';
 import dash from '../../assets/chart.png';
 
 class Activities extends Component{
     render(){
         return(
-            <section className="section-activities" id="section-activities">
+            <section className="section-activities">
+                <div className="scroll-hack" id="section-activities"></div>            
                 <h2>O que fazemos</h2>
                 <div className="box-activities">
                     <div className="img-activ-holder">
