@@ -26,7 +26,7 @@ class Header extends Component{
     handleBurger = ()=>{
         const element = document.querySelector('.nav-header');
         console.log("element.style.width", element.style.width);
-        if (element.style.width === '0px') {
+        if (element.style.width === '0px' || element.style.width === '') {
             element.style.width = "100%";            
         } else {
             element.style.width = "0px";                        
