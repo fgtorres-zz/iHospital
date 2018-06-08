@@ -15,6 +15,29 @@ class Header extends Component{
         else{
             element.classList.remove("active");            
         }
+        // Setting active color on menu
+        const home       = document.getElementById("section-hero").getBoundingClientRect().y;
+        const activities = document.getElementById("section-activities").getBoundingClientRect().y;
+        const products   = document.getElementById("section-trabalhos").getBoundingClientRect().y;
+        const team       = document.getElementById("section-team").getBoundingClientRect().y;
+        const homeItem   = document.getElementById("home-item").classList;
+        const actItem    = document.getElementById("act-item").classList;
+        const workItem   = document.getElementById("work-item").classList;
+        const teamItem   = document.getElementById("team-item").classList;
+        const activeArray = document.querySelectorAll('.nav-header-item.active')[0];;
+        if (home <= 0 && home > -617) {
+            activeArray && activeArray.length > 0 ? activeArray.classList.remove('active') : false;
+            homeItem.add('active');
+        } else if(activities <=0 && activities > -665) {
+            activeArray && activeArray.length > 0 ? activeArray.classList.remove('active') : false;
+            actItem.add('active');
+        } else if(products <=0 && products > -477) {
+            activeArray && activeArray.length > 0 ? activeArray.classList.remove('active') : false;
+            workItem.add('active');
+        } else if(team <=0 && team > -665) {
+            activeArray && activeArray.length > 0 ? activeArray.classList.remove('active') : false;
+            teamItem.add('active');
+        }
     }
     hideMenu = ()=>{
         const viewPortWidth = Math.max(document.documentElement.clientWidth, window.innerWidth || 0);
@@ -72,16 +95,16 @@ class Header extends Component{
                     </div>
                     <nav className="nav-header">
                         <ul>
-                            <li className="nav-header-item">
+                            <li className="nav-header-item" id="home-item">
                                 <a href="/" onClick={this.handleHome}>Home</a>
                             </li>
-                            <li className="nav-header-item">
+                            <li className="nav-header-item" id="act-item">
                                 <a href="/" onClick={this.handleDoit}>O Que Fazemos</a>
                             </li>
-                            <li className="nav-header-item">
+                            <li className="nav-header-item" id="work-item">
                                 <a href="/" onClick={this.handleProd}>Produtos</a>
                             </li>
-                            <li className="nav-header-item">
+                            <li className="nav-header-item" id="team-item">
                                 <a href="/" onClick={this.handleTeam}>Equipe</a>
                             </li>
                         </ul>

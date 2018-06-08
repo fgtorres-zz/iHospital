@@ -34,6 +34,10 @@
     margin-left: auto;
     margin-right: 45px;
 }
+.nav-header-item.active{
+    text-decoration: underline #18093C;
+    color: #18093C;
+}
 
 .logo-header-holder{
     display: inline-block;
