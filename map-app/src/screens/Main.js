@@ -1,42 +1,31 @@
 import React from 'react';
-import { FlatList, View, StyleSheet, Dimensions } from 'react-native';
-import { Avatar, Text, SearchBar } from 'react-native-elements';
+import { View, StyleSheet } from 'react-native';
+import { Text, SearchBar } from 'react-native-elements';
+import ListHosp from '../components/ListHosp';
+import dadosJson from '../dados';
 
-const { height } = Dimensions.get('window');
 const styles = StyleSheet.create({
   containerSearch: {
     backgroundColor: 'transparent',
     borderTopColor: 'transparent',
-    marginBottom: 20,
+    marginBottom: 0,
   },
   inputSearch: {
     backgroundColor: '#eee',
     marginHorizontal: 10,
     marginBottom: 12,
   },
-  scrollView: {
-    backgroundColor: '#000',
-    paddingHorizontal: 10,
-    // height: '100%',
-  },
 });
 
-const items = [
-  {key: '1', name: 'Rafael'},
-  {key: '2', name: 'Melo'},
-]
-
-
-
 export default class Main extends React.Component {
-  _renderItem (item){
-    return (
-      <Text>{item.name}</Text>
-    )
+  constructor(props) {
+    super(props);
+    this.state = {dados: dadosJson.two};
   }
   render() {
+    const { dados } = this.state
     return (
-      <View style={styles.container}>
+      <View>
         <Text style={{ paddingHorizontal: 10 }} h3>Hospitais de Salvador</Text>
         <SearchBar
           containerStyle={styles.containerSearch}
@@ -49,12 +38,7 @@ export default class Main extends React.Component {
           // onClear={someMethod}
           placeholder='Busque pelo nome'
         />
-        <Text h4>Hospitais de Salvador</Text>
-
-        <FlatList
-          renderItem={ item => this._renderItem(item) }
-          data={items}
-        />
+        <ListHosp />
       </View>
 
     )
