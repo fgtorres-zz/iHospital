@@ -1,25 +1,33 @@
 import React from 'react';
-import { FlatList, StyleSheet, View, Dimensions } from 'react-native';
-import { ListItem } from 'react-native-elements';
-import dadosJson from '../dados';
+import { FlatList, Text, View } from 'react-native';
+import { ListItem, Card } from 'react-native-elements';
 
 export default class ListHosp extends React.Component {
-  constructor(props) {
-    super(props);
-    this.state = {dados: dadosJson.two};
-  }
+  _renderItem = ({item}) => (
+    <ListItem
+      leftIcon={{ name:"local-hospital", color:'#c03b2b' }}
+      title={item.nome}
+      subtitle={item.address}
+      onPress={()=>{alert(item.nome)}}
+    />
+  )
   render(){
-    const { dados } = this.state;
-    const { height } = Dimensions.get('window');
+    const { dados } = this.props;
     return(
       <View style={{ flex:1 }}>
         <FlatList
-          keyExtractor={item => item.CNES.toString()}
+          keyExtractor={ item => item.CNES.toString() }
           data={dados}
-          renderItem={({item}) => <ListItem leftIcon={{name:"local-hospital"}} title={item.nome} subtitle={item.address}/>}
+          renderItem={this._renderItem}
+          ListEmptyComponent={
+            <Card title='Nada encontrado'>
+              <Text style={{marginBottom: 10, textAlign: 'center'}}>
+                Nenhum hospital foi encontrado, por favor tente com outro nome.
+              </Text>
+            </Card>
+          }
         />
       </View>
-
     )
   }
 }

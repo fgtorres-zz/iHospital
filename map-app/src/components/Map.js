@@ -1,6 +1,7 @@
 import React from 'react';
-import { View } from 'react-native';
-import { MapView, Marker } from 'expo';
+import { View, Platform } from 'react-native';
+import { MapView, Constants, Location, Permissions } from 'expo';
+import hospIcon from './hosp.png';
 import Dimensions from 'Dimensions';
 import dadosJson from '../dados';
 
@@ -9,10 +10,34 @@ const { height } = Dimensions.get('window');
 export default class Map extends React.Component {
   constructor(props) {
     super(props);
-    this.state = {dados: dadosJson.two};
+    this.state = {
+      dados: dadosJson.two,
+      location: null,
+      errorMessage: null,
+    };
   }
+  componentWillMount() {
+    if (Platform.OS === 'android' && !Constants.isDevice) {
+      this.setState({
+        errorMessage: 'Oops, this will not work on Sketch in an Android emulator. Try it on your device!',
+      });
+    } else {
+      this._getLocationAsync();
+    }
+  }
+  _getLocationAsync = async () => {
+    let { status } = await Permissions.askAsync(Permissions.LOCATION);
+    if (status !== 'granted') {
+      this.setState({
+        errorMessage: 'Permission to access location was denied',
+      });
+    }
+
+    let location = await Location.getCurrentPositionAsync({});
+    this.setState({ location });
+  };
   render() {
-    const { dados } = this.state
+    const { dados, location } = this.state;
     return (
       <View>
         <MapView
@@ -25,8 +50,16 @@ export default class Map extends React.Component {
               coordinate={{latitude:marker.latLng.lat, longitude:marker.latLng.lng}}
               title={marker.nome}
               description={marker.address}
+              image={hospIcon}
             />
           ))}
+          {location && (
+            <MapView.Marker
+              key={'0001111'}
+              coordinate={{latitude:location.coords.latitude, longitude:location.coords.longitude}}
+              title={'Sua localização'}
+            />
+          )}
         </MapView>
 
       </View>

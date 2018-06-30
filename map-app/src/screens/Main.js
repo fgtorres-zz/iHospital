@@ -1,6 +1,6 @@
 import React from 'react';
 import { View, StyleSheet, Dimensions } from 'react-native';
-import { Text, SearchBar } from 'react-native-elements';
+import { SearchBar, Icon } from 'react-native-elements';
 import ListHosp from '../components/ListHosp';
 import dadosJson from '../dados';
 
@@ -20,27 +20,61 @@ const styles = StyleSheet.create({
 });
 
 export default class Main extends React.Component {
+  static navigationOptions = {
+    title: 'Hospitais',
+    tabBarIcon: ({ tintColor }) => (
+      <Icon name='view-headline' color={tintColor} />
+    ),
+  }
   constructor(props) {
     super(props);
-    this.state = {dados: dadosJson.two};
+    this.state = {
+      dados: dadosJson.two,
+      dadosFind: []
+    };
+  }
+  componentDidMount() {
+    const { dados } = this.state;
+    this.setState({dadosFind:dados});
+  }
+  _formatSearch = (text) =>{
+    text = text.toLowerCase();
+    text = text.replace(new RegExp('[ÁÀÂÃ]','gi'), 'a');
+    text = text.replace(new RegExp('[ÉÈÊ]','gi'), 'e');
+    text = text.replace(new RegExp('[ÍÌÎ]','gi'), 'i');
+    text = text.replace(new RegExp('[ÓÒÔÕ]','gi'), 'o');
+    text = text.replace(new RegExp('[ÚÙÛ]','gi'), 'u');
+    text = text.replace(new RegExp('[Ç]','gi'), 'c');
+    return text;
+  }
+  _searchMethod = (search)=>{
+    const { dados } = this.state;
+    if (search) {
+      search = this._formatSearch(search);
+      const findThis = new RegExp(search, "i");
+      const newSearch = dados.filter(item => item.nome.search(findThis) > -1 );
+      this.setState({dadosFind:newSearch});
+    }
+    else{
+      this.setState({dadosFind:dados});
+    }
+
   }
   render() {
-    const { dados } = this.state
+    const { dadosFind } = this.state;
     return (
       <View style={{height: height-55, flex: 1}}>
-        <Text style={{ paddingHorizontal: 10, }} h3>Hospitais de Salvador</Text>
         <SearchBar
           containerStyle={styles.containerSearch}
           inputStyle={styles.inputSearch}
           lightTheme
           round
-          showLoading
-          // searchIcon={false} // You could have passed `null` too
-          // onChangeText={someMethod}
+          showLoading={true}
+          onChangeText={this._searchMethod}
           // onClear={someMethod}
           placeholder='Busque pelo nome'
         />
-        <ListHosp />
+        <ListHosp dados={dadosFind}/>
       </View>
 
     )
