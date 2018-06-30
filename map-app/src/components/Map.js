@@ -5,7 +5,6 @@ import Dimensions from 'Dimensions';
 import dadosJson from '../dados';
 
 const { height } = Dimensions.get('window');
-const hardLocation = {latitude: 37.78825, longitude: -122.4324}
 
 export default class Map extends React.Component {
   constructor(props) {

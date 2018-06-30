@@ -1,8 +1,10 @@
 import React from 'react';
-import { View, StyleSheet } from 'react-native';
+import { View, StyleSheet, Dimensions } from 'react-native';
 import { Text, SearchBar } from 'react-native-elements';
 import ListHosp from '../components/ListHosp';
 import dadosJson from '../dados';
+
+const { height } = Dimensions.get('window');
 
 const styles = StyleSheet.create({
   containerSearch: {
@@ -25,8 +27,8 @@ export default class Main extends React.Component {
   render() {
     const { dados } = this.state
     return (
-      <View>
-        <Text style={{ paddingHorizontal: 10 }} h3>Hospitais de Salvador</Text>
+      <View style={{height: height-55, flex: 1}}>
+        <Text style={{ paddingHorizontal: 10, }} h3>Hospitais de Salvador</Text>
         <SearchBar
           containerStyle={styles.containerSearch}
           inputStyle={styles.inputSearch}
