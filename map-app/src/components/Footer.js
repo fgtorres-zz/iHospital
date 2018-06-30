@@ -22,21 +22,21 @@ export default class Footer extends React.Component {
       key: 'games',
       icon: 'gamepad',
       label: 'Games',
-      barColor: '#388E3C',
+      barColor: 'rgba(51, 122, 183, .95)',
       pressColor: 'rgba(255, 255, 255, 0.16)'
     },
     {
       key: 'movies-tv',
       icon: 'movie',
       label: 'Movies & TV',
-      barColor: '#B71C1C',
+      barColor: 'rgba(51, 122, 183, 1)',
       pressColor: 'rgba(255, 255, 255, 0.16)'
     },
     {
       key: 'music',
       icon: 'music-note',
       label: 'Music',
-      barColor: '#E64A19',
+      barColor: 'rgba(51, 122, 183, 1)',
       pressColor: 'rgba(255, 255, 255, 0.16)'
     }
   ]
@@ -56,7 +56,6 @@ export default class Footer extends React.Component {
 
   render() {
     return (
-      // Done
       <View style={{height:55}}>
         <BottomNavigation
           style={{flex:1}}

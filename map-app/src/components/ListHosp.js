@@ -12,12 +12,11 @@ export default class ListHosp extends React.Component {
     const { dados } = this.state;
     const { height } = Dimensions.get('window');
     return(
-      <View style={{flex:1}}>
+      <View style={{ flex:1 }}>
         <FlatList
           keyExtractor={item => item.CNES.toString()}
           data={dados}
           renderItem={({item}) => <ListItem leftIcon={{name:"local-hospital"}} title={item.nome} subtitle={item.address}/>}
-          // ListFooterComponent={<View style={{ height: 0, marginBottom: height - height*(45/100) }}></View>}
         />
       </View>
 

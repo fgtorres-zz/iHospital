@@ -11,10 +11,8 @@ export default class App extends React.Component {
     return (
       <View style={{ flex: 1 }}>
         <Header
-          backgroundColor='#8C513B'
-          leftComponent={{ icon: 'menu', color: '#fff' }}
-          centerComponent={{ text: 'iHospital', style: { color: '#fff' } }}
-          rightComponent={{ icon: 'home', color: '#fff' }}
+          backgroundColor='#337ab7'
+          centerComponent={{ text: 'iHospital', style: { color: '#ffffff', fontSize: 18 } }}
         />
         <Main />
         <Footer />
