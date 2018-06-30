@@ -1,10 +1,8 @@
 import React from 'react';
 import Main from './src/screens/Main';
-import { View, Dimensions } from 'react-native';
+import { View } from 'react-native';
 import { Header } from 'react-native-elements';
 import Footer from './src/components/Footer';
-
-const { height } = Dimensions.get('window');
 
 export default class App extends React.Component {
   render() {
