@@ -62,6 +62,7 @@ export default class Main extends React.Component {
   }
   render() {
     const { dadosFind } = this.state;
+    const { navigation } = this.props;
     return (
       <View style={{height: height-55, flex: 1}}>
         <SearchBar
@@ -74,7 +75,7 @@ export default class Main extends React.Component {
           // onClear={someMethod}
           placeholder='Busque pelo nome'
         />
-        <ListHosp dados={dadosFind}/>
+        <ListHosp dados={dadosFind} navigation={navigation}/>
       </View>
 
     )
