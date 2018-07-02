@@ -1,9 +1,10 @@
 import React from 'react';
-import { View, Platform } from 'react-native';
-import { MapView, Constants, Location, Permissions } from 'expo';
+import { View } from 'react-native';
+import { MapView, Location, Permissions } from 'expo';
 import hospIcon from './hosp.png';
 import Dimensions from 'Dimensions';
 import dadosJson from '../dados';
+// import dadosJson from '../novosHospitais';
 
 const { height } = Dimensions.get('window');
 
@@ -17,13 +18,7 @@ export default class Map extends React.Component {
     };
   }
   componentWillMount() {
-    if (Platform.OS === 'android' && !Constants.isDevice) {
-      this.setState({
-        errorMessage: 'Oops, this will not work on Sketch in an Android emulator. Try it on your device!',
-      });
-    } else {
-      this._getLocationAsync();
-    }
+    this._getLocationAsync();
   }
   _getLocationAsync = async () => {
     let { status } = await Permissions.askAsync(Permissions.LOCATION);
@@ -35,7 +30,7 @@ export default class Map extends React.Component {
 
     let location = await Location.getCurrentPositionAsync({});
     this.setState({ location });
-  };
+  }
   render() {
     const { dados, location } = this.state;
     return (

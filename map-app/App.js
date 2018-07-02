@@ -11,8 +11,7 @@ export default class App extends React.Component {
           backgroundColor='#337ab7'
           centerComponent={{ text: 'iHospital', style: { color: '#ffffff', fontSize: 18 } }}
         />
-        <Routes.RootStack />
-        <Routes.OtherStack style={{height:0}} />
+        <Routes />
       </View>
     );
   }

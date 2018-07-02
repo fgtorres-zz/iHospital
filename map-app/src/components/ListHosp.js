@@ -8,6 +8,7 @@ export default class ListHosp extends React.Component {
     return(
       <View style={{ flex: 1 }}>
         <FlatList
+          style={{ backgroundColor:'#ffffff' }}
           keyExtractor={ item => item.CNES.toString() }
           data={dados}
           renderItem={({item}) => (

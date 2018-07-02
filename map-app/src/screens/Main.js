@@ -3,12 +3,13 @@ import { View, StyleSheet, Dimensions } from 'react-native';
 import { SearchBar, Icon } from 'react-native-elements';
 import ListHosp from '../components/ListHosp';
 import dadosJson from '../dados';
+// import dadosJson from '../novosHospitais';
 
 const { height } = Dimensions.get('window');
 
 const styles = StyleSheet.create({
   containerSearch: {
-    backgroundColor: 'transparent',
+    backgroundColor: '#ffffff',
     borderTopColor: 'transparent',
     marginBottom: 0,
   },
@@ -36,6 +37,17 @@ export default class Main extends React.Component {
   componentDidMount() {
     const { dados } = this.state;
     this.setState({dadosFind:dados});
+    // console.log('Mount, start fetch')
+    // fetch('http://overdatalab.com/data/newHsp.json')
+    // .then((response) => response.json())
+    // .then((responseJson) => {
+    //   this.setState({dadosFind:dados});
+    //   console.log('hosp',responseJson.HOSPITAIS);
+    //   return responseJson.HOSPITAIS;
+    // })
+    // .catch((error) => {
+    //   console.error(error);
+    // });
   }
   _formatSearch = (text) =>{
     text = text.toLowerCase();

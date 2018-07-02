@@ -3,8 +3,6 @@ import Main from './screens/Main';
 import MapScreen from './screens/MapScreen';
 import Hospital from './screens/Hospital';
 
-const OtherStack = createStackNavigator({ Hospital });
-
 const RootStack = createBottomTabNavigator(
   {
     Home: Main,
@@ -22,4 +20,14 @@ const RootStack = createBottomTabNavigator(
   }
 );
 
-export default { RootStack, OtherStack }
+const MainScreenNavigator = createStackNavigator({
+
+    Hospital: { screen: Hospital },
+    Tab: RootStack,
+  },
+  {
+    initialRouteName: 'Tab',
+    headerMode: 'none'
+  });
+
+export default MainScreenNavigator;
