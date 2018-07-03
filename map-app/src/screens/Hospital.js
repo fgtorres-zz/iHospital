@@ -4,7 +4,7 @@ import { Card, Button, Icon } from 'react-native-elements'
 import { MapView, Linking, Location, Permissions } from 'expo';
 import hospIcon from '../components/hosp.png';
 
-export default class Hospital extends React.Component {
+export default class Hospital extends React.PureComponent {
   static navigationOptions = {
     title: 'Hospital',
   }
@@ -44,23 +44,21 @@ export default class Hospital extends React.Component {
           <MapView.Marker
             coordinate={{latitude:lat, longitude:lng}}
             title={hospital.nome}
-            description={hospital.address}
             image={hospIcon}
           />
-          {location && (
+          {location &&
             <MapView.Marker
               key={'0001111'}
               coordinate={{latitude:location.coords.latitude, longitude:location.coords.longitude}}
               title={'Sua localização'}
-            />
-          )}
+            />}
         </MapView>
 
         <Text style={{marginBottom: 10}}>
           {hospital.address}
         </Text>
 
-        {location && (
+        {location ? (
           <Button
             icon={<Icon name='code' color='#ffffff' />}
             backgroundColor='#337ab7'
@@ -68,7 +66,20 @@ export default class Hospital extends React.Component {
             title='Traçar rota'
             onPress={() => { Linking.openURL(urlToGo) }}
           />
-        )}
+        ):
+        (<Button
+            loading
+            loadingProps={{ size: "large", color: "rgba(111, 202, 186, 1)" }}
+            title='Carregando Sua Localização'
+            titleStyle={{ fontWeight: "700" }}
+            buttonStyle={{
+              height:45,
+              backgroundColor: "#337ab7",
+              borderColor: "transparent",
+              borderRadius: 10,
+              marginBottom: 10
+            }}
+          />)}
 
         <Button
           icon={<Icon name='code' color='#ffffff' />}

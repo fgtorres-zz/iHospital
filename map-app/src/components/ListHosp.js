@@ -2,7 +2,7 @@ import React from 'react';
 import { FlatList, Text, View } from 'react-native';
 import { ListItem, Card } from 'react-native-elements';
 
-export default class ListHosp extends React.Component {
+export default class ListHosp extends React.PureComponent {
   render(){
     const { dados } = this.props;
     return(
