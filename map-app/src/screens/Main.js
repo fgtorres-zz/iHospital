@@ -3,7 +3,6 @@ import { View, StyleSheet, Dimensions } from 'react-native';
 import { SearchBar, Icon } from 'react-native-elements';
 import ListHosp from '../components/ListHosp';
 import dadosJson from '../dados';
-// import dadosJson from '../novosHospitais';
 
 const { height } = Dimensions.get('window');
 
@@ -37,17 +36,6 @@ export default class Main extends React.Component {
   componentDidMount() {
     const { dados } = this.state;
     this.setState({dadosFind:dados});
-    // console.log('Mount, start fetch')
-    // fetch('http://overdatalab.com/data/newHsp.json')
-    // .then((response) => response.json())
-    // .then((responseJson) => {
-    //   this.setState({dadosFind:dados});
-    //   console.log('hosp',responseJson.HOSPITAIS);
-    //   return responseJson.HOSPITAIS;
-    // })
-    // .catch((error) => {
-    //   console.error(error);
-    // });
   }
   _formatSearch = (text) =>{
     text = text.toLowerCase();
@@ -76,15 +64,14 @@ export default class Main extends React.Component {
     const { dadosFind } = this.state;
     const { navigation } = this.props;
     return (
-      <View style={{height: height-55, flex: 1}}>
+      <View style={{height: height - 55, flex: 1}}>
         <SearchBar
           containerStyle={styles.containerSearch}
           inputStyle={styles.inputSearch}
           lightTheme
           round
-          showLoading={true}
+          showLoading
           onChangeText={this._searchMethod}
-          // onClear={someMethod}
           placeholder='Busque pelo nome'
         />
         <ListHosp dados={dadosFind} navigation={navigation}/>

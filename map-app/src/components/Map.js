@@ -4,7 +4,6 @@ import { MapView, Location, Permissions } from 'expo';
 import hospIcon from './hosp.png';
 import Dimensions from 'Dimensions';
 import dadosJson from '../dados';
-// import dadosJson from '../novosHospitais';
 
 const { height } = Dimensions.get('window');
 
@@ -56,7 +55,6 @@ export default class Map extends React.Component {
             />
           )}
         </MapView>
-
       </View>
     );
   }

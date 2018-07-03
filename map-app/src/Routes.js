@@ -27,7 +27,7 @@ const MainScreenNavigator = createStackNavigator({
   },
   {
     initialRouteName: 'Tab',
-    headerMode: 'none'
+    headerMode: 'none',
   });
 
 export default MainScreenNavigator;
