@@ -2,9 +2,26 @@ import requests
 from threading import Thread 
 from time import sleep
 import json 
+import logging
+import logging.handlers
+import sys
+#configuracao SMTP
+smtp_handler = logging.handlers.SMTPHandler(mailhost=("smtp.gmail.com",587),
+fromaddr="overdatalabsmtp@gmail.com",
+toaddrs="joaopedrombvboas@gmail.com",
+subject=u"Overdatalab l <HospFinder>",
+credentials=('overdatalabsmtp@gmail.com','overdata2018'),
+secure=()
+)
+erros = []
+logger = logging.getLogger()
+logger.addHandler(smtp_handler)
+
+
+
 
 r = open('SemGeoloc.json','r')
-w = open('Hospitais.json','w')
+w = open('Hospitaisteste.json','w')
 
 w.write('[\n')
 
@@ -30,15 +47,26 @@ def generateData(line , obj):
     jsona['nome'] = line['NO_FANTASIA']
     jsona['latLng'] = obj
     w.write(json.dumps(jsona,ensure_ascii=False,sort_keys=True,indent=4)+",\n")
+try:
+    content = "deu erro bro"
+    i=0
+    containers = json.loads(r.read())
+    for container in containers['RECORDS']:
+        sleep(0.0000000000001)
+        thread = Thread(target=getGeoloc, args=(container,))
+        thread.start()
+        thread.join()
+        i+=1
+        print(i)
+        if(i == 10):
+            logger.exception('Mensagem do HospFinder: Primeiro Ciclo de Mineração deu certo!!\n ')            
+            break
+        
+            
 
-i=0
-containers = json.loads(r.read())
-for container in containers['RECORDS']:
-    sleep(0.0000000000001)
-    thread = Thread(target=getGeoloc, args=(container,))
-    thread.start()
-    thread.join()
-    i+=1
-    print(i)
-    if(i == 2500):
-        break
+except KeyboardInterrupt:
+    logger.exception('O sistema parou de Funcionar parou no numero '+str(i)+'\n\n\n')
+except RuntimeError:
+    logger.exception('O sistema parou de Funcionar parou no numero '+str(i)+'\n\n\n')
+except SystemExit:
+    logger.exception('O sistema parou de Funcionar parou no numero '+str(i)+'\n\n\n')
