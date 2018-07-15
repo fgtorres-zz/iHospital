@@ -5,6 +5,18 @@
     "splash": {
       "image": "./src/assets/splashScreen.png",
       "backgroundColor": "#337ab7"
+    },
+    "ios": {
+      "supportsTablet": false,
+      "bundleIdentifier": "com.overdatalab.ihospital"
+    },
+    "android": {
+      "package": "com.overdatalab.ihospital",
+      "config": {
+        "googleMaps": {
+          "apiKey": "AIzaSyDxTk5GPSyW0-IuoOigzLm4JTQ_OV1SgY0"
+        }
+      }
     }
   }
 }

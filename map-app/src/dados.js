@@ -1,6 +1,4 @@
 
-// Sorry for what you're about to see, but a hackathon is a hackathon...
-
 const jsonFinal = [
         {
             "address": "Rua Direta do Saboeiro, s/n - Cabula, Salvador - BA, 41180-780, Brazil",

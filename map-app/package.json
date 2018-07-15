@@ -1,7 +1,8 @@
 {
-  "name": "map-app",
+  "name": "iHospital",
   "version": "0.1.0",
   "private": true,
+  "description": "Aplicativo para tornar os hospitais públicos mais acessíveis",
   "devDependencies": {
     "babel-plugin-root-import": "^6.0.0",
     "jest-expo": "~27.0.0",
