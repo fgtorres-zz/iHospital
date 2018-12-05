@@ -24,7 +24,6 @@ export default class App extends React.Component {
   _retrieveData = async () => {
     try {
       const value = await AsyncStorage.getItem("showOnboarding");
-      console.log("===>", value);
       return value !== null && value;
     } catch (error) {
       console.error(error);
@@ -32,7 +31,6 @@ export default class App extends React.Component {
   };
   render() {
     const { showOnboarding } = this.state;
-    console.log("showOnboarding", showOnboarding);
     return (
       <View style={{ flex: 1 }}>
         {showOnboarding === "true" ? (
