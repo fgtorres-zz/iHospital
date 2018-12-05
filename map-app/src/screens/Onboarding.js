@@ -15,7 +15,7 @@ const OnboardingScreen = props => {
   return (
     <View style={styles.container}>
       <Onboarding
-        onDone={() => props.onDone()}
+        onDone={() => props.onDone(false)}
         skipToPage={2}
         nextLabel="Próximo"
         skipLabel="Pular"

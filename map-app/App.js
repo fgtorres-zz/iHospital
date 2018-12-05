@@ -1,40 +1,34 @@
 import React from "react";
-import { View, AsyncStorage } from "react-native";
+import Expo from "expo";
+import { View, Text, AsyncStorage } from "react-native";
 import { Header } from "react-native-elements";
 import Routes from "./src/Routes";
 import Onboarding from "./src/screens/Onboarding";
 
 export default class App extends React.Component {
-  constructor(props) {
-    super(props);
-    const hasValue = this._retrieveData();
-    this.state = {
-      showOnboarding: hasValue === "false" ? "false" : "true"
-    };
-    AsyncStorage.setItem("showOnboarding", "true");
+  state = {
+    storedValue: null
+  };
+
+  async componentDidMount() {
+    let storedValue = await AsyncStorage.getItem("@MySuperStore:key");
+    if (storedValue !== "skip") {
+      storedValue = await AsyncStorage.setItem("@MySuperStore:key", "skip");
+    }
+    this.setState({
+      storedValue
+    });
   }
-  _storeData = async () => {
-    try {
-      await AsyncStorage.setItem("showOnboarding", "false");
-      this.setState({ showOnboarding: "false" });
-    } catch (error) {
-      console.error(error);
-    }
-  };
-  _retrieveData = async () => {
-    try {
-      const value = await AsyncStorage.getItem("showOnboarding");
-      return value !== null && value;
-    } catch (error) {
-      console.error(error);
-    }
-  };
+
+  setValue = () => this.setState({ storedValue: "skip" });
+
   render() {
-    const { showOnboarding } = this.state;
+    const { storedValue } = this.state;
+    console.log("storedValue", storedValue);
     return (
       <View style={{ flex: 1 }}>
-        {showOnboarding === "true" ? (
-          <Onboarding onDone={this._storeData} />
+        {storedValue === null ? (
+          <Onboarding onDone={this.setValue} />
         ) : (
           <View>
             <Header

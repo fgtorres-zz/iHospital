@@ -1,6 +1,11 @@
 {
   "expo": {
+    "name": "iHospital",
     "sdkVersion": "27.0.0",
+    "version": "1.0.0",
+    "slug": "ihospital",
+    "privacy": "unlisted",
+    "orientation": "portrait",
     "icon": "./src/assets/iconBig.png",
     "splash": {
       "image": "./src/assets/splashScreen.png",
